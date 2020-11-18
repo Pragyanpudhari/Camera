@@ -71,7 +71,7 @@ function setup() {
 function draw() {
   //trex.debug = true;
   camera.x = trex.x;
-
+  camera.y = trex.y;
   gameOver.position.x = restart.position.x = camera.x
 
   background(255);
